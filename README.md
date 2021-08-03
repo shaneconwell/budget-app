@@ -4,7 +4,7 @@
         <img src="https://img.shields.io/badge/license-MIT-brightgreen" /></a>
   
   ## Description
-Budget Tracker application that allows for adding expenses and deposits with or without an internet connection
+Budget Tracker application that allows for adding expenses and deposits with or without an internet connection. This app uses a Mongo database with a Mongoose schema and handles routes with Express. It contains both a web manifest and service worker allowing for continued use after an internet outtage or on airplane mode. 
 
   ## Table of Contents
   - [Installation](#installation)
@@ -20,12 +20,9 @@ Budget Tracker application that allows for adding expenses and deposits with or 
    npm i
    ```
   ## Usage
-  A link to the deployed application can be found [here](-).
+  A link to the deployed application can be found [here](https://guarded-anchorage-24329.herokuapp.com/).
 
-![Screenshot](./assets/images/)
-
-
-
+![Screenshot](./public/images/budget-app_screenshot.png)
 
   ## License
   This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
